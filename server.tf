@@ -26,7 +26,7 @@ resource "aws_instance" "example" {
   ami           = "ami-ebd02392"
   instance_type = "t2.micro"
   security_groups = ["launch-wizard-1"]
-  user_data = "${file("Users/boltonb/Code/terraform/userdata.txt")}"
+  user_data = "${file("/Users/boltonb/Code/terraform/userdata.txt")}"
 }
 
 ##################################################################################
