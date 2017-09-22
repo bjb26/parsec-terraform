@@ -10,7 +10,6 @@
 
 provider "aws" {
   region                  = "eu-west-1"
-  shared_credentials_file = "/Users/boltonb/.aws/credentials"
   profile                 = "boltonb"
 }
 
