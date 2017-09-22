@@ -22,7 +22,7 @@ resource "aws_spot_instance_request" "parsec" {
   spot_price    = "0.30"
   instance_type = "g2.2xlarge"
   security_groups = ["launch-wizard-1"]
-  user_data = "${file("/Users/boltonb/Code/terraform/userdata.txt")}"
+  user_data = "${file("~/Code/terraform/userdata.txt")}"
 }
 
 ##################################################################################
