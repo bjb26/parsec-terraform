@@ -19,7 +19,7 @@ provider "aws" {
 
 resource "aws_spot_instance_request" "parsec" {
   ami           = "ami-ab0ff9d2"
-  spot_price    = "0.15"
+  spot_price    = "0.20"
   instance_type = "g2.2xlarge"
   security_groups = ["launch-wizard-1"]
   user_data = "${file("~/Code/terraform/userdata.txt")}"
