@@ -23,7 +23,16 @@ resource "aws_spot_instance_request" "parsec" {
   instance_type = "g2.2xlarge"
   security_groups = ["launch-wizard-1"]
   user_data = "${file("~/Code/terraform/userdata.txt")}"
+
+ebs_block_device {
+    device_name = "/dev/sda1"
+    volume_type = "gp2"
+    volume_size = 40
+    delete_on_termination = "true"
+  }
 }
+
+
 
 ##################################################################################
 # OUTPUT
