@@ -23,7 +23,7 @@ website/node_modules
 *.iml
 *.test
 *.iml
-userdata.txt
+./userdata.txt
 
 website/vendor
 
