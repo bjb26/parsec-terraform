@@ -11,14 +11,13 @@ This repository contains the terraform code to depoly a Parsec Gaming instance t
   
 # Configuring AWS 
 
-Create an AWS user and create Access keys. [AWS IAM User Guide]
+  - Create an AWS IAM  user and create Access keys. [AWS IAM User Guide]
+  - Once created, ensure you have your credentials defined in ~/.aws/credentials
 
-Ensure you have credentials defined in ~/.aws/credentials
 ```
 [AWS-User]
 aws_access_key_id = insert_key_here
 aws_secret_access_key = insert_key_here
-
 ```
 
 
