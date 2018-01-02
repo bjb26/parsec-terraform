@@ -19,8 +19,8 @@ aws_access_key_id = insert_key_here
 aws_secret_access_key = insert_key_here
 ```
 
-  - Create a security group named parsec-security group. [Security Group Documentation] with the below configuration. 
-  - parsec-security group should have these ports 8000-8011 TCP and UDP are open.
+  - Create a security group named parsec-security-group. [Security Group Documentation] with the below configuration. 
+  - parsec-security-group should have these ports 8000-8011 TCP and UDP are open.
 
 [AWS IAM User Documentation]: <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html>
 [Terraform]: <https://www.terraform.io/intro/getting-started/install.html>
