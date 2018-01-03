@@ -42,6 +42,14 @@ This file is the terraform file where all configuration paramaters are definied 
 
 The current configruation will create a spot instance request with a max pricing of $0.20 per hour in the eu-west-1 region. 
 
+  - You will need to change the "PROVIDERS" section of this file. Replacing the profile to the name of your aws user. 
+
+```
+provider "aws" {
+  region                  = "eu-west-1"
+  profile                 = "name of aws user"
+}
+```
 
 # Launching an instance 
 
