@@ -65,7 +65,7 @@ $ terraform apply
 $ terraform destroy
 ```
 
-[AWS IAM User Documentation]: <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html>
+[AWS IAM Documentation]: <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html>
 [Terraform]: <https://www.terraform.io/intro/getting-started/install.html>
 [AWS]: <https://docs.aws.amazon.com/cli/latest/userguide/installing.html>
 [Security Group Documentation]: <https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_SecurityGroups.html#CreatingSecurityGroups>
